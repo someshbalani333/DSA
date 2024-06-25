@@ -15,6 +15,8 @@ const trailingZeroesBrute = (n) => {
     return res;
 }
 
+// TC: n + logn
+
 trailingZeroesBrute(10)
 
 const trailingZeroesOptimized = (n) => {
@@ -27,5 +29,7 @@ const trailingZeroesOptimized = (n) => {
 
     return res;
 }
+
+// TC: logn
 
 trailingZeroesOptimized(251);
